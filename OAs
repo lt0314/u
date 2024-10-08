@@ -467,7 +467,7 @@ javascript: (function (_) {
 		L = n ? label.split('>')[1] : label,
 		v;
 		var d = new DO(),
-		lod = 'div:contains(????)';
+		lod = 'div:contains(正在处理)';
 		d.add(function (r) {
 			var id = setInterval1(function (id) {
 					!$(lod, doc)[0] && !$(lod, p)[0] && (clearInterval(id), setTimeout(function () {
